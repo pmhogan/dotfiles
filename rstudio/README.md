@@ -28,7 +28,7 @@ NOTE:
 
 #### 3. rstudio_bindings.json
 
-Add the contents of [rstudio_bindings.json](https://github.com/gvelasq/dotfiles/blob/main/rstudio/rstudio_bindings.json) to the local version found here:
+Add the contents of [rstudio_bindings.json](https://github.com/gvelasq/dotfiles/blob/main/rstudio/rstudio_bindings.json) to the local version found under RStudio > Tools > Modify Keyboard Shortcuts, or here:
 
 ```bash
 ~/.config/rstudio/keybindings/rstudio_bindings.json
