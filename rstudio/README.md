@@ -2,7 +2,7 @@
 
 #### 1. r.snippets
 
-Append the contents of [r.snippets](https://github.com/gvelasq/dotfiles/blob/main/rstudio/r.snippets) to the local version under RStdio > Tools > Edit Code Snippets:
+Append the contents of [r.snippets](https://github.com/gvelasq/dotfiles/blob/main/rstudio/r.snippets) to the local version found under RStudio > Tools > Edit Code Snippets, or here:
 
 ```bash
 ~/.config/rstudio/snippets/r.snippets
