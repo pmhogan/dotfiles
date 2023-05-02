@@ -2,7 +2,7 @@
 
 #### 1. r.snippets
 
-Append the contents of [r.snippets](https://github.com/gvelasq/dotfiles/blob/main/rstudio/r.snippets) to the local version found here:
+Append the contents of [r.snippets](https://github.com/gvelasq/dotfiles/blob/main/rstudio/r.snippets) to the local version under RStdio > Tools > Edit Code Snippets:
 
 ```bash
 ~/.config/rstudio/snippets/r.snippets
@@ -10,7 +10,7 @@ Append the contents of [r.snippets](https://github.com/gvelasq/dotfiles/blob/mai
 
 NOTE:
 
-- Change the prefix of your snippets to your initials. Default is `gv`.
+- Change the prefix of your snippets to your initials. Default is `pmh`.
 
 #### 2. rstudio-prefs.json
 
@@ -22,9 +22,9 @@ Add the contents of [rstudio-prefs.json](https://github.com/gvelasq/dotfiles/blo
 
 NOTE:
 
-- Change `default_project_location` to your preferred directory. Default is `~/code`.
-- Change `git_exe_path` to the location of your Git executable, which can be found by typing `which git` in a terminal. Default is `/usr/local/bin/git`.
-- Change `document_author` to your name. Default is `gvelasq`.
+- Change `default_project_location` to your preferred directory. Default is `~/Documents/Code`.
+- Change `git_exe_path` to the location of your Git executable, which can be found by typing `which git` in a terminal. Default is `/opt/homebrew/bin/git`.
+- Change `document_author` to your name. Default is `pmhogan`.
 
 #### 3. rstudio_bindings.json
 

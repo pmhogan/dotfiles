@@ -6,13 +6,13 @@
     "wrap_tab_navigation": false,
     "console_double_click_select": true,
     "save_workspace": "never",
-    "default_project_location": "~/code",
+    "default_project_location": "~/Documents/Code",
     "jobs_tab_visibility": "shown",
     "initial_working_directory": "~",
     "rainbow_parentheses": true,
-    "git_exe_path": "/usr/local/bin/git",
+    "git_exe_path": "/opt/homebrew/bin/git",
     "source_with_echo": true,
     "rmd_auto_date": true,
-    "document_author": "gvelasq",
+    "document_author": "pmhogan",
     "show_hidden_files": true
 }
