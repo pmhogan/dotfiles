@@ -1,4 +1,4 @@
-## macOS Configuration
+## [macOS Configuration](https://ivelasq.rbind.io/blog/macos-rig/)
 
 1. Install [Homebrew](https://brew.sh/).
 
@@ -6,7 +6,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-2. Install [Git](https://git-scm.com/download/linux).
+2. Install [Git](https://git-scm.com/download/mac).
 
 ```bash
 brew install git
@@ -31,13 +31,13 @@ brew install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-6. Configure [oh-my-zsh](https://github.com/gvelasq/dotfiles/tree/main/zsh).
+6. Configure [oh-my-zsh](https://github.com/pmhogan/dotfiles/tree/main/zsh).
 
-7. Install [rig](https://github.com/r-lib/rig#linux).
+7. Install [rig](https://github.com/r-lib/rig#macos-homebrew).
 
 ```bash
-curl -Ls https://github.com/gaborcsardi/rim/releases/download/v0.3.0/rim-linux-0.3.0.tar.gz |
-  sudo tar xz -C /usr/local
+brew tap r-lib/rig
+brew install --cask rig
 ```
 
 8. Install [R](https://www.r-project.org/).
@@ -46,20 +46,19 @@ curl -Ls https://github.com/gaborcsardi/rim/releases/download/v0.3.0/rim-linux-0
 rig add release
 ```
 
-9. Install [RStudio Desktop Preview](https://www.rstudio.com/products/rstudio/download/preview/).
+9. Install [RStudio Desktop](https://posit.co/download/rstudio-desktop/).
 
 ```bash
-brew tap homebrew/cask-versions
-brew install --cask rstudio-preview
+brew install --cask rstudio
 ```
 
-10. Configure [.Rprofile](https://github.com/gvelasq/dotfiles/blob/main/R/.Rprofile).
+10. Configure [.Rprofile](https://github.com/pmhogan/dotfiles/blob/main/R/.Rprofile).
 
 ```r
 usethis::edit_r_profile()
 ```
 
-11. Configure [RStudio](https://github.com/gvelasq/dotfiles/tree/main/rstudio).
+11. Configure [RStudio](https://github.com/pmhogan/dotfiles/tree/main/rstudio).
 
 12. Create a [GitHub PAT](https://usethis.r-lib.org/reference/github-token.html).
 
@@ -73,8 +72,14 @@ usethis::create_github_token()
 gitcreds::gitcreds_set()
 ```
 
-14. Install [Quarto](https://quarto.org/docs/get-started/).
+14. Install [Quarto](https://quarto.org/docs/get-started/) if using RStudio `< v.2022.07`.
 
 ```bash
 brew install --cask quarto
+```
+
+15. Install [htop](https://htop.dev)
+
+```bash
+brew install htop
 ```
