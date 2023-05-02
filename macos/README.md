@@ -72,7 +72,7 @@ usethis::create_github_token()
 gitcreds::gitcreds_set()
 ```
 
-14. Install [Quarto](https://quarto.org/docs/get-started/) if using RStudio `< v.2022.07`.
+14. Install [Quarto](https://quarto.org/docs/get-started/) if RStudio < `v.2022.07`.
 
 ```bash
 brew install --cask quarto
