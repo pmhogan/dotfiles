@@ -15,8 +15,8 @@ brew install git
 3. Configure [global Git settings](https://github.com/gvelasq/git-reference#setup).
 
 ```bash
-git config --global user.name "<full-name>"
-git config --global user.email "<email>"
+git config --global user.name "Patrick Hogan"
+git config --global user.email "pmhogan@users.noreply.github.com"
 ```
 
 4. Install [zsh](https://zsh.sourceforge.io/).
