@@ -52,13 +52,13 @@ rig add release
 brew install --cask rstudio
 ```
 
-10. Configure [.Rprofile](https://github.com/pmhogan/dotfiles/blob/main/R/.Rprofile).
+10. [Configure .Rprofile](https://github.com/pmhogan/dotfiles/blob/main/R/.Rprofile).
 
 ```r
 usethis::edit_r_profile()
 ```
 
-11. Configure [RStudio](https://github.com/pmhogan/dotfiles/tree/main/rstudio).
+11. [Configure RStudio](https://github.com/pmhogan/dotfiles/tree/main/rstudio).
 
 12. Create a [GitHub PAT](https://usethis.r-lib.org/reference/github-token.html).
 

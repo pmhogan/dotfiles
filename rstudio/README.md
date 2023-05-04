@@ -8,8 +8,6 @@ Append the contents of [r.snippets](https://github.com/gvelasq/dotfiles/blob/mai
 ~/.config/rstudio/snippets/r.snippets
 ```
 
-NOTE:
-
 - Change the prefix of your snippets to your initials. Default is `pmh`.
 
 #### 2. rstudio-prefs.json
@@ -19,8 +17,6 @@ Add the contents of [rstudio-prefs.json](https://github.com/gvelasq/dotfiles/blo
 ```bash
 ~/.config/rstudio/rstudio-prefs.json
 ```
-
-NOTE:
 
 - Change `default_project_location` to your preferred directory. Default is `~/Documents/Code`.
 - Change `git_exe_path` to the location of your Git executable, which can be found by typing `which git` in a terminal. Default is `/opt/homebrew/bin/git`.
